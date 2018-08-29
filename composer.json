@@ -9,7 +9,7 @@
     "require": {
 	  	"php": ">=7.1",
 	  	"elasticsearch/elasticsearch": "~2.2.0",
-		"pd/pecka-elastic": "@dev",
+		"pd/elasticsearch-query": "@dev",
 		"nette/application": "^3.0",
 		"nette/bootstrap": "^3.0",
 		"nette/caching": "^3.0",
@@ -27,11 +27,5 @@
 		"tracy/tracy": "^3.0",
         "monolog/monolog": "^2.0@dev"
 	},
-  	"minimum-stability": "dev",
-	"repositories": [
-	  {
-		"type": "path",
-		"url": "/mnt/c/Users/VBoss/PhpstormProjects/PeckaElastic"
-	  }
-	]
+  	"minimum-stability": "dev"
 }

@@ -7,7 +7,7 @@ application:
 		*: App\*Module\Presenters\*Presenter
 
 tracy:
-	maxDepth: 8
+	maxDepth: 10
 
 services:
 	router: App\RouterModule\Router::create
