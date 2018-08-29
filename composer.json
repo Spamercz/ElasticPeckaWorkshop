@@ -1,0 +1,37 @@
+{
+    "name": "spamer/elastic-pecka-workshop",
+  	"description": "Ukázka práce s elasticem v peckadesign 29.8.2018",
+    "authors": [
+        {
+            "name": "Václav Čevela"
+        }
+    ],
+    "require": {
+	  	"php": ">=7.1",
+	  	"elasticsearch/elasticsearch": "~2.2.0",
+		"pd/pecka-elastic": "@dev",
+		"nette/application": "^3.0",
+		"nette/bootstrap": "^3.0",
+		"nette/caching": "^3.0",
+		"nette/database": "^3.0",
+		"nette/di": "^3.0",
+		"nette/finder": "^3.0",
+		"nette/forms": "^3.0",
+		"nette/http": "^3.0",
+		"nette/mail": "^3.0",
+		"nette/robot-loader": "^3.0",
+		"nette/safe-stream": "^2.3",
+		"nette/security": "^3.0",
+		"nette/utils": "^3.0",
+		"latte/latte": "^3.0",
+		"tracy/tracy": "^3.0",
+        "monolog/monolog": "^2.0@dev"
+	},
+  	"minimum-stability": "dev",
+	"repositories": [
+	  {
+		"type": "path",
+		"url": "/mnt/c/Users/VBoss/PhpstormProjects/PeckaElastic"
+	  }
+	]
+}

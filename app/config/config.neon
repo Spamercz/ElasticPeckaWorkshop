@@ -1,0 +1,33 @@
+extensions:
+
+application:
+	scanDirs: FALSE
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
+
+tracy:
+	maxDepth: 8
+
+services:
+	router: App\RouterModule\Router::create
+
+# STEP TWO
+	search:
+		class: App\StepTwoModule\Search
+
+	clientProvider:
+		class: App\StepTwoModule\ClientProvider
+
+	clientBuilder:
+		class: Elasticsearch\ClientBuilder
+
+# STEP THREE
+	searchThree:
+		class: App\StepThreeModule\Search
+
+# STEP FOUR
+	searchFour:
+		class: App\StepFourModule\Search
+
+
