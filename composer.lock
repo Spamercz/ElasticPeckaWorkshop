@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f893580c9cafac3c9cf5ed51f976da24",
+    "content-hash": "4b10f0d49a1cc90fa627b4dae5587c8f",
     "packages": [
         {
             "name": "elasticsearch/elasticsearch",
@@ -1409,6 +1409,48 @@
             "time": "2018-08-13T13:43:25+00:00"
         },
         {
+            "name": "pd/elasticsearch-query",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peckadesign/ElasticsearchQuery.git",
+                "reference": "3dbbf1687cd620843ecf28020732397a9f166b1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peckadesign/ElasticsearchQuery/zipball/3dbbf1687cd620843ecf28020732397a9f166b1b",
+                "reference": "3dbbf1687cd620843ecf28020732397a9f166b1b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "nette/tester": "^2.0",
+                "pd/coding-standard": "^1.14",
+                "phpstan/phpstan-shim": "^0.10.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Pd\\ElasticSearchModule": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Václav Čevela",
+                    "email": "vaclav.cevela@peckadesign.cz"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/peckadesign/ElasticsearchQuery/tree/master",
+                "issues": "https://github.com/peckadesign/ElasticsearchQuery/issues"
+            },
+            "time": "2018-08-29T15:34:55+00:00"
+        },
+        {
             "name": "pd/pecka-elastic",
             "version": "dev-master",
             "dist": {
@@ -1603,7 +1645,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pd/pecka-elastic": 20,
+        "pd/elasticsearch-query": 20,
         "monolog/monolog": 20
     },
     "prefer-stable": false,

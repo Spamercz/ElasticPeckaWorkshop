@@ -9,7 +9,7 @@
     "require": {
 	  	"php": ">=7.1",
 	  	"elasticsearch/elasticsearch": "~2.2.0",
-		"pd/elasticsearch-query": "@dev",
+		"pd/elasticsearch-query": "dev-master",
 		"nette/application": "^3.0",
 		"nette/bootstrap": "^3.0",
 		"nette/caching": "^3.0",
@@ -27,5 +27,11 @@
 		"tracy/tracy": "^3.0",
         "monolog/monolog": "^2.0@dev"
 	},
-  	"minimum-stability": "dev"
+  	"minimum-stability": "dev",
+  	"repositories": [
+	  {
+		"type": "vcs",
+		"url": "https://github.com/peckadesign/ElasticsearchQuery"
+	  }
+	]
 }
